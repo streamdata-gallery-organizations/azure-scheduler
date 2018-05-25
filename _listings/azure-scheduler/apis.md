@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: ""
 tags: Azure Scheduler
-created: "2018-05-21"
-modified: "2018-05-21"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Job Collections Subscription
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidprovidersmicrosoftschedulerjobcollections-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidprovidersmicrosoft-schedulerjobcollections-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidprovidersmicrosoftschedulerjobcollections-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidprovidersmicrosoft-schedulerjobcollections-get-openapi.md
 - name: Azure Scheduler API Job Collections List By Resource Group
   x-api-slug: azure-scheduler-api
   description: Gets all job collections under specified resource group.
@@ -35,9 +35,9 @@ apis:
   tags: Job Collections Resource Group
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollections-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollections-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollections-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollections-get-openapi.md
 - name: Azure Scheduler API Job Collections Get
   x-api-slug: azure-scheduler-api
   description: Gets a job collection.
@@ -47,9 +47,9 @@ apis:
   tags: Job Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-get-openapi.md
 - name: Azure Scheduler API Job Collections Create Or Update
   x-api-slug: azure-scheduler-api
   description: Provisions a new job collection or updates an existing job collection.
@@ -59,7 +59,7 @@ apis:
   tags: Job Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-put-openapi.md
 - name: Azure Scheduler API Job Collections Patch
   x-api-slug: azure-scheduler-api
   description: Patches an existing job collection.
@@ -69,7 +69,7 @@ apis:
   tags: Job Collections
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-patch-openapi.md
 - name: Azure Scheduler API Job Collections Delete
   x-api-slug: azure-scheduler-api
   description: Deletes a job collection.
@@ -79,9 +79,9 @@ apis:
   tags: Job Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionname-delete-openapi.md
 - name: Azure Scheduler API Job Collections Enable
   x-api-slug: azure-scheduler-api
   description: Enables all of the jobs in the job collection.
@@ -91,9 +91,9 @@ apis:
   tags: Job Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnameenable-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnameenable-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnameenable-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnameenable-post-openapi.md
 - name: Azure Scheduler API Job Collections Disable
   x-api-slug: azure-scheduler-api
   description: Disables all of the jobs in the job collection.
@@ -103,9 +103,9 @@ apis:
   tags: Job Collections
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamedisable-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamedisable-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamedisable-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamedisable-post-openapi.md
 - name: Azure Scheduler API Jobs Get
   x-api-slug: azure-scheduler-api
   description: Gets a job.
@@ -115,9 +115,9 @@ apis:
   tags: Jobs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobname-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobname-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobname-get-openapi.md
 - name: Azure Scheduler API Jobs Create Or Update
   x-api-slug: azure-scheduler-api
   description: Provisions a new job or updates an existing job.
@@ -127,7 +127,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobname-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobname-put-openapi.md
 - name: Azure Scheduler API Jobs Patch
   x-api-slug: azure-scheduler-api
   description: Patches an existing job.
@@ -137,7 +137,7 @@ apis:
   tags: Jobs
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobname-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobname-patch-openapi.md
 - name: Azure Scheduler API Jobs Delete
   x-api-slug: azure-scheduler-api
   description: Deletes a job.
@@ -147,9 +147,9 @@ apis:
   tags: Jobs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobname-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobname-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobname-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobname-delete-openapi.md
 - name: Azure Scheduler API Jobs Run
   x-api-slug: azure-scheduler-api
   description: Runs a job.
@@ -159,9 +159,9 @@ apis:
   tags: Jobs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobnamerun-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobnamerun-post-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobnamerun-post-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobnamerun-post-openapi.md
 - name: Azure Scheduler API Jobs List
   x-api-slug: azure-scheduler-api
   description: Lists all jobs under the specified job collection.
@@ -171,9 +171,9 @@ apis:
   tags: Jobs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobs-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobs-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobs-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobs-get-openapi.md
 - name: Azure Scheduler API Jobs List Job History
   x-api-slug: azure-scheduler-api
   description: Lists job history.
@@ -183,9 +183,9 @@ apis:
   tags: Jobs
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobnamehistory-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobnamehistory-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftschedulerjobcollectionsjobcollectionnamejobsjobnamehistory-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/azure-scheduler/master/_listings/azure-scheduler/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobnamehistory-get-openapi.md
 - name: Azure Scheduler API
   x-api-slug: azure-scheduler-api
   description: Azure Scheduler lets you create jobs in the cloud that invoke services

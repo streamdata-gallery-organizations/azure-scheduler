@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Scheduler
-x-complete: 1
+x-complete: 0
 info:
-  title: SchedulerManagementClient
+  title: Azure Scheduler API Jobs List
   version: 1.0.0
+  description: Lists all jobs under the specified job collection.
 host: management.azure.com
 basePath: /
 schemes:
@@ -324,37 +325,17 @@ paths:
           description: OK
       tags:
       - Jobs
-  ? /subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.Scheduler/jobCollections/{jobCollectionName}/jobs/{jobName}/history
-  : get:
-      summary: Jobs List Job History
-      description: Lists job history.
-      operationId: Jobs_ListJobHistory
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-schedulerjobcollectionsjobcollectionnamejobsjobnamehistory-get
-      parameters:
-      - in: query
-        name: $filter
-        description: The filter to apply on the job state
-      - in: query
-        name: $skip
-        description: The (0-based) index of the job history list from which to begin
-          requesting entries
-      - in: query
-        name: $top
-        description: the number of job history to request, in the of range of [1
-      - in: path
-        name: jobCollectionName
-        description: The job collection name
-      - in: path
-        name: jobName
-        description: The job name
-      - in: query
-        name: No Name
-      - in: path
-        name: resourceGroupName
-        description: The resource group name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Jobs
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
